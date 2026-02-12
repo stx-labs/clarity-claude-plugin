@@ -1,0 +1,8 @@
+{
+  "name": "clarity-plugin",
+  "description": "Write and test Clarity Smart contracts. Access the Clarity LSP.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stacks Labs"
+  }
+}
