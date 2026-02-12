@@ -20,4 +20,6 @@ claude --plugin-dir ../clarity-claude-plugin
 # from there, Claude will get the diagnostics as it interacts with the LSP
 ```
 
+## See it in action
+
 ![Clarity LSP in Claude Code](./screenshot-clarity-lsp.png "Clarity LSP in Claude Code")
