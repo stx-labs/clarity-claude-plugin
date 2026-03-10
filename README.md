@@ -2,13 +2,18 @@ Give Claude the ability to use the Clarity LSP.
 
 # Installation
 
-WIP - [need to publish on a marketplace](https://code.claude.com/docs/en/plugins#create-plugins)
+Add the Stacks Labs marketplace, then install the plugin:
+
+```sh
+/plugin marketplace add stx-labs/claude-marketplace
+/plugin install clarity-plugin@stx-labs
+```
+
+Then start Claude from a Clarinet project and the plugin will provide LSP diagnostics automatically.
 
 # Dev Usage (no installation)
 
-Clone this repository, then start Claude with from a Clarinet project: 
-
-Example:
+Clone this repository, then start Claude from a Clarinet project:
 
 ```sh
 git clone https://github.com/stx-labs/clarity-claude-plugin.git
