@@ -28,3 +28,9 @@ claude --plugin-dir ../clarity-claude-plugin
 ## See it in action
 
 ![Clarity LSP in Claude Code](./screenshot-clarity-lsp.png "Clarity LSP in Claude Code")
+
+## Disclaimer
+
+This plugin and its associated skills are provided as developer tools only. Any smart contract code generated, modified, or suggested through the use of this plugin **must be thoroughly reviewed, tested, and independently audited** before deployment to any adversarial environment such as a blockchain. Blockchain transactions are irreversible, and vulnerabilities in smart contracts can lead to permanent loss of funds.
+
+Stacks Labs makes no representations or warranties regarding the correctness, security, or fitness for purpose of any code produced using this plugin. **Stacks Labs assumes no responsibility or liability** for any losses, damages, or other consequences arising from the use or deployment of code generated with the assistance of this plugin. Use at your own risk.
