@@ -1,0 +1,9 @@
+{
+  "clarity": {
+    "command": "clarinet",
+    "args": ["lsp"],
+    "extensionToLanguage": {
+      ".clar": "clarity"
+    }
+  }
+}
