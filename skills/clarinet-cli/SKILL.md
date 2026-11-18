@@ -25,4 +25,5 @@ You have access to the `clarinet` CLI — the primary tool for building, testing
 
 - Always run clarinet commands from the **project root** (the directory containing `Clarinet.toml`)
 - **Never manually edit `Clarinet.toml` to add contracts or requirements** — always use `clarinet contracts new` and `clarinet requirements add` instead, which handle all necessary scaffolding
+- Boot contracts (`SP000000000000000000002Q6VF78.*`, e.g. the `pox-*` contracts) and the sBTC contracts `sbtc-registry`, `sbtc-token` and `sbtc-deposit` are built into Clarinet — never add them as requirements; add every other contract dependency with `clarinet requirements add <CONTRACT_ID>`
 - When creating a new project with `clarinet new`, cd into the new directory before running further commands
